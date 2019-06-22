@@ -1,0 +1,26 @@
+[Eagle]
+Version="09 04 02"
+Platform="Linux"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/home/ryu/EAGLE/libraries/mylib.lbr"
+UsedLibrary="/home/ryu/EAGLE/libraries/library/AP65111AWU-7.lbr"
+UsedLibrary="/home/ryu/EAGLE/libraries/library/con-rj45.lbr"
+UsedLibrary="/home/ryu/EAGLE/libraries/library/con-xh.lbr"
+UsedLibrary="/home/ryu/EAGLE/libraries/library/l_ysk.lbr"
+UsedLibrary="/home/ryu/EAGLE/libraries/library/on-semi.lbr"
+UsedLibrary="/home/ryu/EAGLE/libraries/library/resonator.lbr"
+UsedLibrary="/home/ryu/EAGLE/libraries/library/stm32_mcu.lbr"
+UsedLibrary="/home/ryu/EAGLE/libraries/library/switch-tactile.lbr"
+UsedLibrary="/home/ryu/EAGLE/libraries/library/torex.lbr"
+
+[Win_1]
+Type="Control Panel"
+Number=0
+
+[Desktop]
+Screen="1366 768"
+Window="Win_1"
