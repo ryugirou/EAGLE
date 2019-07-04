@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -26848,6 +26848,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="+3V7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="TP4" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
 <part name="TP5" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/1"/>
+<part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27429,6 +27430,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="NAME" x="229.87" y="21.59" size="1.778" layer="95" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" x="232.41" y="24.13" size="1.778" layer="97" rot="R90"/>
 </instance>
+<instance part="GND34" gate="1" x="50.8" y="96.52" smashed="yes" rot="R180">
+<attribute name="VALUE" x="53.34" y="99.06" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27793,6 +27797,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="TP1" gate="G$1" pin="TP"/>
 <pinref part="GND33" gate="1" pin="GNDA"/>
 <wire x1="195.58" y1="2.54" x2="195.58" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="BOOT0"/>
+<pinref part="GND34" gate="1" pin="GNDA"/>
 </segment>
 </net>
 <net name="+5V" class="0">
